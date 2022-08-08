@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4E5FF"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        android:background="#B4E5FF"
+        android:textColor="@color/white"
+        android:text="정보 수집 약관에\n동의해 주세요."
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="130dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/first_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_check_circle_outline_24"
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:text="개인정보 약관 동의"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/second_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_beforecheck_24"
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:text="개인정보 수집 및 이용"/>
+
+            <Space
+                android:layout_width="118.3dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/second_right"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_chevron_right_24"
+                android:backgroundTint="#C0C0C0"/>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/third_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_beforecheck_24"
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:text="이용 약관 동의"/>
+
+            <Space
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/third_right"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_chevron_right_24"
+                android:backgroundTint="#C0C0C0"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E5E5E5"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="확인"
+                android:textStyle="bold"
+                android:clickable="false"
+                android:backgroundTint="#E5E5E5"
+                android:visibility="visible"
+                android:layout_marginTop="50dp"/>
+
+            <Button
+                android:id="@+id/rule_page_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="확인"
+                android:textStyle="bold"
+                android:clickable="false"
+                android:backgroundTint="#B4E5FF"
+                android:visibility="invisible"
+                android:layout_marginTop="50dp"/>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
